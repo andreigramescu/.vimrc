@@ -10,6 +10,7 @@ set smartindent
 set incsearch
 set noswapfile
 
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
@@ -18,6 +19,7 @@ Plug 'preservim/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
+
 
 set background=dark
 let g:gruvbox_contrast_dark='hard'

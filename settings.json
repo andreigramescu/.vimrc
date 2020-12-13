@@ -1,0 +1,56 @@
+{
+  "telemetry.enableTelemetry": false,
+  "git.enabled": false,
+
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+
+  "breadcrumbs.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.zoomLevel": 1,
+
+  "editor.formatOnSave": true,
+  "prettier.arrowParens": "avoid",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "C_Cpp.errorSquiggles": "Disabled",
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.autocomplete": "Default",
+  "C_Cpp.enhancedColorization": "Disabled",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.semanticHighlighting.enabled": true
+  },
+
+  "workbench.iconTheme": "material-icon-theme",
+
+  "vim.easymotion": true,
+  "vim.leader": "\\",
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-a>": false,
+    "<C-x>": false,
+    "<C-c>": false
+  },
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "todo-tree.tree.showScanModeButton": false,
+  "workbench.colorTheme": "Nord",
+
+  "extensions": [
+    "Bracket Pair Colorizer 2",
+    "C/C++",
+    "Haskell Syntax Highlighting",
+    "Live Share",
+    "Material Icon Theme",
+    "Nord",
+    "Prettier - Code formatter",
+    "Scala Syntax (official)",
+    "Todo+",
+    "Vim"
+  ]
+}
